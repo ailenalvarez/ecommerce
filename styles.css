@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif; 
+}
+.miMenu{
+    font-weight: 400;
+}
+.bgPastillas{
+    background-color: #F0E9DF;
+}
+.bgPastillas2{
+    background-color: #CFB599;
+}
+h1{
+    font-weight: medium 500;
+}
+p{
+    font-weight: 300;
+}
+.btnCarrito{
+    background-color: #CFB599;
+    border: #CFB599;
+    margin-top: 15px;
+}
+.btnCarrito:hover{
+    background-color: #523427;
+}
+h2{
+    font-weight: 700;
+}
+.bgCta{
+    background-color:  #F0E9DF;
+}
+.miBtn{
+     background-color: #CFB599;
+    border: #CFB599;
+    margin-top: 15px;
+    color: white;
+}
+.miBtn:hover{
+    background-color: #523427;
+     color: white;
+}
+h3{
+    font-weight: medium 300;
+}
+.bgFooter{
+    background-color: #F0E9DF;
+}
+/*QUIENES SOMOS*/
+.quienesSomos{
+    text-transform: uppercase;
+}
+/*CONTACTO*/
+#contacto{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 60px;
+}
+.pContacto{
+    font-size: 25px;
+}
+
+.miTitulo{
+    font-weight: 800;
+}

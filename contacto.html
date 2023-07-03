@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TP 2 Ailen Alvarez DWM2CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-md bgMio py-0">
+            <div class="container-fluid">
+              <!-- logo -->
+              <a class="navbar-brand" href="index.html">
+                    <picture>
+                        <source media="(min-width: 801px)" srcset="img/logoDesktop.png">  
+                        <source media="(min-width: 481px)" srcset="img/logoTablet.png">
+                        <img src="img/logoMobile.png" alt="logo maktub">
+                    </picture>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones" aria-expanded="true">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse miMenu" id="opciones">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.htm">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="quienes.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="frecuentes.html">Preguntas</a>
+                    </li>
+        
+                  </ul>
+                </div>
+          </nav>
+    </header>
+    <main>
+      <h1 id="contacto">Contacta con nosotros</h1>
+      <h2 class="text-center fs-3 fw-normal">Queremos escucharte!</h2>
+      <section class="container">
+        <div class="row row-cols-sm-1 row-cols-lg-2">
+          <div class="col-lg-4 d-flex align-items-lg-center">
+            <p class="pContacto mt-3">
+            Si necesita ponerse en contacto con nosotros, utilice el siguiente formulario o, alternativamente, envíenos un correo electrónico directamente a la dirección: mak@tiendaderopa.com. <br>
+            <strong> ¡Siempre estamos aquí y felices de ayudar!</strong> 
+          </p> 
+          </div>
+          
+          <div class="d-flex justify-content-center col-lg-8">
+            <form class="px-6 my-5 col-6 needs-validation" novalidate="">
+              <div class="mb-3">
+                <label for="validationCustom01" class="form-label miTitulo">Nombre</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre completo" required>
+                <div class="valid-feedback">
+                  Hola!
+                </div>
+                <div class="inavlid-feedback">
+                  Porfavor, ingrese su nombre
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="ValidationCustom02" class="form-label miTitulo">Email</label>
+                <input type="email" class="form-control" id="ValidationCustom02" placeholder="nombre@gmail.com" required="" aria-describedby="emailHelp">
+                <div class="valid-feedback">
+                  Es correcto!
+                </div>
+                <div class="inavlid-feedback">
+                  Porfavor, ingrese su email
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="ValidationCustom02" class="form-label miTitulo">¿En que prendas esta interesado?</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Vestidos
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Jeans
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Remeras
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Conjuntos sastreros
+                  </label>
+                </div>
+              </div>
+              <div>
+                <label for="ValidationCustom02" class="form-label miTitulo">¿Le ha resultado facil la navegación por la web?</label><br>
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="ValidationCustom02">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Si
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="ValidationCustom02">
+                <label class="form-check-label" for="flexRadioDefault2">
+                No
+                </label>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label miTitulo">Nos encantaría conocer su opinión:</label>
+                <textarea type="Comentario" class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Listo!</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  <footer class="bgFooter">
+    <div class="container">
+      <div class="row-col py-3 my-4 border-top">
+        <div class="col">
+          <p>Ailen Alvarez</p>
+          <p>Interacción a Dispositivos Móviles</p>
+          <p>Turno mañana</p>
+          <p>DWM2CV</p>
+          <p>2022</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a href="http://facebook.com"><i class="bi bi-facebook" style="color:black"></i></a></li>
+            <li class="ms-3"><a href="http://instagram.com"><i class="bi bi-instagram" style="color:black"></i></a></li>
+            <li class="ms-3"><a href="https://twitter.com/?lang=es"><i class="bi bi-twitter" style="color:black"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+  </footer>
+  <script>
+      'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.from(forms).forEach(form => {
+          form.addEventListener('submit', event => {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+          }, false)
+        })
+     
+
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
